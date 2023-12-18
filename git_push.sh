@@ -16,7 +16,8 @@ git add .
 git rm --cached cofigs.txt
 git rm --cached variables.sh
 git rm --cached -r __pycache__/
-git commit -m "update main.py"
+git rm --cached reset/wg0_backup.zip
+git commit -m "stable docker build"
 git push origin main
 
 # Восстанавливаем предыдущее значение api_tg
